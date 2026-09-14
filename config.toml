@@ -1,0 +1,13 @@
+[server]
+headless = true
+# Streamlit Cloud / Render / Fly all inject their own $PORT; leaving port unset
+# here lets the platform decide.  Only run.sh pins 8501 for local use.
+enableXsrfProtection = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#e60000"
