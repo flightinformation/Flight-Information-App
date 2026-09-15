@@ -1,5 +1,0 @@
-streamlit>=1.46
-streamlit-folium>=0.24
-folium>=0.17
-requests>=2.32
-lxml>=5.2
